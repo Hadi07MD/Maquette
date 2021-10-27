@@ -1,4 +1,4 @@
-body{
+ body{
     
     margin: 0%;
     padding: 0%;
@@ -67,23 +67,29 @@ padding: 15px 20px;
      .nv-right a:last-child{
          font-size: 13px;
          font-weight: bolder;
-        
+         border-radius: 10px;
         background: #F38E58;
         border: 2px solid #FFFFFF;
         font-weight: bold;
 
 
      }
-.titre :first-child{
-    font-family: sans-serif;
- text-align: center;
- margin-top:90px;
- color: white;
- font-size: 45px;
- margin-bottom:0;
+    .dash :first-child{
+        font-family: sans-serif;
+        text-align: center;
+        margin-top:90px;
+        color: white;
+        font-size: 45px;
+        margin-bottom:0;
+        }
+    .dash :last-child{
+        text-align: center;
+        margin-top: 0px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold
 }
-.titre :last-child{
-    text-align: center;
-    margin-top: 0px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold
+.container{
+    margin-bottom: 77px;
+}
+
+
